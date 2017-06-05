@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command PartHandle</Text>
+    <Description>Some description for PartHandle</Description>
+    <Assembly>PartHandle.dll</Assembly>
+    <FullClassName>PartHandle.Command</FullClassName>
+    <ClientId>3e6d3168-4fa3-471f-9154-0b8249866ffe</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application PartHandle</Name>
+    <Assembly>PartHandle.dll</Assembly>
+    <FullClassName>PartHandle.App</FullClassName>
+    <ClientId>13daf57d-5638-41d2-956f-68a80f632cac</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
