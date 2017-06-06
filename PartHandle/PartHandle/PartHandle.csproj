@@ -53,10 +53,14 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
+    <Compile Include="CheckGeometry.cs" />
     <Compile Include="Command.cs" />
+    <Compile Include="GeomUtil.cs" />
+    <Compile Include="MultiPolygon.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
